@@ -1,4 +1,5 @@
 <?php 
+$pageTitle = "OrbitaSenac - Home";
 include 'inc/header.inc.php';
 ?>
     <link rel="stylesheet" href="css/style.css">
@@ -20,14 +21,49 @@ include 'inc/header.inc.php';
                     <li><a href="#">Confirmados</a></li>
                     <li><a href="#">Cancelados</a></li>
                     <li><a href="#">Evidencia</a></li>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <li><a href="#">Maio Laranja</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> </a>
                     
                 </ul>
              </nav>
         </div>
     </section>
+    <section class="destaque">
+       <div class="carrossel">
+            <div class="slides">
+                
+                <img src="img/maiolaranja.jpg">
+                <img src="img/startup.jpg">  
+            </div>
+        </div>
+    </section>
+    <div class="flex-container">
+        <div class="portifolio esq">
+            conteudo1
+            <img src="img/naruto.webp">
+            <p>texto sobre a 1 startup <a href="gamelancer.php">Clique aqui</a>
+            </p>
+            
+        </div>
+            
+        <div class="portifolio meio">
+            conteudo2
+            <img src="img/giphy.gif">
+            <p>texto sobre a 2 startup <a href="gamelancer.php">Clique aqui</a></p>
+            
+        </div>
 
+        <div class="portifolio dir">
+            conteudo3
+            <img src="img/corgi.webp">
+            <p>texto sobre a 3 startup <a href="gamelancer.php">Clique aqui</a>
+            </p>
+            
+        </div>
+    </div>
 
+<div onclick="subirtela()" class="scrollbutton"></div>
+<script type="text/javascript" src="js/script.js"></script>
 <?php 
 include 'inc/footer.inc.php';
 ?>
