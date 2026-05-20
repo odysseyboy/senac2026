@@ -31,12 +31,13 @@ header{
     right: 0;
 }
 .menu_opcoes ul{
+    border-radius: 30px 30px 30px 30px;
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-size: 20px;
     overflow: hidden;
-    background-color: blanchedalmond;
+    background-color: rgb(235, 19, 19);
 }
 .menu_opcoes ul li{
     display: inline;
@@ -51,12 +52,180 @@ header{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    padding: 14px 16px;
     text-shadow: 1px 1px 1px black;
+    border-radius: 3px;
 }
 .menu_opcoes li a:hover{
     transition: 0.05s;
     color: black;
     background-color: #a574de;
-    text-shadow: 2px 2px 2px;
+    text-shadow: 4px 4px 4px;
+
 }
+.container{
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 60px;
+    max-width: 1024px;
+    height: 1200px;
+    background-color: aqua;
+}
+.busca,
+.menu_start
+{
+    background-color: #155dcf;
+    font-weight: bold;
+    font-family: verdana, arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;  
+}
+
+.menu_start{
+    clear:left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu_start{
+    background-color: #a574de;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    float: left;
+}
+
+.menu_start a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_start ul{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.menu_start li a:hover{
+    transition: 0.05s;
+    color: black;
+    background-color: #a574de;
+    text-shadow: 2px 2px 2px;
+    
+}
+.busca button{
+    background-color: #155dcf;
+   /* color: wheat;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    /*text-transform: uppercase;(Faz com que o a escrita fique em caixa alta*/
+    /*box-shadow: 5px 5px 5px;(adiciona sombra na camada de tras do que se esta mexendo */
+    background-image: url("../img/lupa2.png");
+    background-repeat: no-repeat;
+    border: none;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    margin-left: 20px;
+}
+
+/*.busca button :hover{
+    background-color: purple;
+    color: wheat;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px;
+    text-transform: uppercase;(Faz com que o a escrita fique em caixa alta
+    box-shadow: 5px 5px 5px;(adiciona sombra na camada de tras do que se esta mexendo 
+}*/
+.busca input[type="search"]{
+    width: 200px;
+    background-color: red;
+}
+
+.destaque{
+    width: 70%;
+    padding: 20px;
+    background-color: #040442;
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #2603a5 ;
+    margin-top: -161px;
+    margin-left: 35px;
+}
+.destaque figure img{
+    width: 70%;
+}
+
+.destaque img {
+    width: 98%;
+    /* padding 10px; */
+    float: left;
+}
+
+/*Final destaque */
+
+/*inicio portifolio */
+
+.flex-container{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+
+.portifolio{
+    flex: 1;
+    background-color: red;
+    border: 1px solid black;
+    width: 33%;
+    height: 280px;
+    margin-right:20px ;
+    border-radius:10px;
+}
+/*.portifolio:last-child{
+    margin-right:0;
+}*/
+
+.esq{
+    background-color: blue;
+}
+
+.meio{
+    background-color: yellow;
+}
+
+.dir{
+    background-color: white;
+    margin-right:0;
+}
+
+.esq p{
+    text-align:justify;
+    color: white;
+    margin: 3px;
+    font-family: "open_sanssemibold","Open Sans","Arial"; 
+}
+.esq img{
+    width:35%;
+    margin-left: 10%;
+}
+
+.meio img{
+    width: 35%;
+    margin-right:15% ;
+}
+
+.dir img{
+    width: 35%;
+    margin-right: 10%;
+}
+/* fim do portifolio */
