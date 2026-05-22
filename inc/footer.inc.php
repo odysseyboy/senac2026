@@ -1,3 +1,4 @@
+</div>
  <footer>
  <img src="img/orbitaicon.png">
     <div class="ajuste">
@@ -8,7 +9,7 @@
         </ul>
  
      <hr>
-     <h3>&copy; OrbitaSenac 2026 <br> Todos os direitos reservados</h3>
+     <h3>&copy: OrbitaSenac 2026 <br> Todos os direitos reservados</h3>
     </div>
 </footer>
     

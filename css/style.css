@@ -36,6 +36,12 @@ header{
 }
 .container{
     margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    min-height: 10200;
+    height: auto;
+    background-color: #040442;
 
 }
 #logo{
@@ -292,6 +298,8 @@ footer{
     clear: both;
     color:gray;
     margin-top: 10px;
+    margin-left:6% ;
+    width: 1030px;  
 }
 footer img{
     width: 15%;
@@ -302,20 +310,35 @@ footer h3{
 }
 .social{
     position: absolute;
+    top:-65px;
+    right:20px;
 }
 .social a{
     height: 32px;
     width: 32px;
     display: inline-block;
     text-indent: -9999px;
+   
 }
 .social li{
     float: left;
     margin-left: 25px;
+    list-style: none;
 }
 .social a[href*="facebook.com"]{
-    background-image: url(../img/facebook.webp);
+    background-image: url(../img/facebook_2.png);
+    background-size: 32px;
+
 }
+
+.social a[href*="instagram.com"]{
+    background-image: url(../img/insta_2.png);
+}
+
+.social a[href*="whatsapp.com"]{
+    background-image: url(../img/whatsapp.png);
+}
+
 footer .ajuste{
     position: relative;
 }
